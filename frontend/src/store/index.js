@@ -1,8 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit';
-import complaintReducer from './complaintSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import coordinationReducer from "./complaintSlice";
 
 export const store = configureStore({
   reducer: {
-    complaints: complaintReducer,
+    coordination: coordinationReducer,
   },
 });
